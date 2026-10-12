@@ -1,0 +1,10 @@
+﻿{
+  "name": "skroy19.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sanjoy Kumar Roy academic portfolio",
+  "scripts": {
+    "dev": "node tools/serve.cjs",
+    "check": "node --check script.js && node tools/check.cjs"
+  }
+}
