@@ -607,6 +607,7 @@ section > p:last-child {
   border-radius: 6px;
   padding: 24px 28px;
   margin-top: 20px;
+  scroll-margin-top: 32px;
   position: relative;
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
@@ -695,6 +696,14 @@ section > p:last-child {
   font-size: 16px;
   color: var(--ink);
   font-weight: 700;
+}
+
+.phase-subtitle {
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: -2px 0 10px;
+  font-style: italic;
 }
 
 .pipeline-expanded-content h4:first-child {
@@ -816,6 +825,7 @@ section > p:last-child {
 .project-entry {
   padding: 24px 0;
   border-bottom: 1px solid var(--line);
+  scroll-margin-top: 32px;
 }
 
 .project-entry p {
@@ -1051,13 +1061,13 @@ footer a:hover {
 
 @media (max-width: 760px) {
   html {
-    scroll-padding-top: 68px;
+    scroll-padding-top: 76px;
   }
 
   section,
   .project-card,
   .project-entry {
-    scroll-margin-top: 68px;
+    scroll-margin-top: 76px;
   }
 
   .mobile-header {
